@@ -1,0 +1,39 @@
+databaseChangeLog:
+  - changeSet:
+      id: 01_create_statement_type
+      author: pawel
+      changes:
+        - createTable:
+            tableName: book
+            columns:
+              - column:
+                  name: id
+                  type: uuid
+                  constraints:
+                    primaryKey: true
+                    nullable: false
+              - column:
+                  name: title
+                  type: varchar(255)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: author
+                  type: varchar(50)
+                  constraints:
+                    nullable: false
+              - column:
+                  name: pages_number
+                  type: integer
+                  constraints:
+                    nullable: false
+              - column:
+                  name: release_year
+                  type: integer
+                  constraints:
+                    nullable: false
+              - column:
+                  name: cover_type
+                  type: varchar(25)
+                  constraints:
+                    nullable: false

@@ -1,0 +1,4 @@
+databaseChangeLog:
+  - include:
+      relativeToChangelogFile: true
+      file: 01_insert_data/statement_type/changelog-01-predefined-data-statement_type.yaml

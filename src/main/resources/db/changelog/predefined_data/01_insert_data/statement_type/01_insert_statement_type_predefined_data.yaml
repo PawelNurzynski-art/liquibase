@@ -1,0 +1,30 @@
+databaseChangeLog:
+  - changeSet:
+      id: 01_insert_statement_type_predefined_data
+      author: pawel
+      changes:
+        - loadData:
+            file: statement_type/statement_type_predefined_data.csv
+            relativeToChangelogFile: true
+            tableName: book
+            encoding: UTF-8
+            separator: ','
+            columns:
+              - column:
+                  name: id
+                  type: uuid
+              - column:
+                  name: title
+                  type: string
+              - column:
+                  name: author
+                  type: string
+              - column:
+                  name: pages_number
+                  type: numeric
+              - column:
+                  name: release_year
+                  type: numeric
+              - column:
+                  name: cover_type
+                  type: string
