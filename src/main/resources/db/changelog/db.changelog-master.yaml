@@ -1,7 +1,7 @@
 databaseChangeLog:
   - include:
       relativeToChangelogFile: true
-      file: 01/changelog-01.yaml
+      file: 01/01_create_statement_type.yaml
   - include:
       relativeToChangelogFile: true
-      file: 02/changelog-02.yaml
+      file: 02/02_insert_statement_type_predefined_data.yaml
