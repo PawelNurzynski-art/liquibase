@@ -4,4 +4,4 @@ databaseChangeLog:
       file: 01/changelog-01.yaml
   - include:
       relativeToChangelogFile: true
-      file: predefined_data/01_insert_predefinded_data.yaml
+      file: 02/changelog-02.yaml

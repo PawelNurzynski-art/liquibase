@@ -1,4 +1,0 @@
-databaseChangeLog:
-  - include:
-      relativeToChangelogFile: true
-      file: 01_create_statement_type.yaml

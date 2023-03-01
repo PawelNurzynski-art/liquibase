@@ -1,10 +1,10 @@
 databaseChangeLog:
   - changeSet:
-      id: 01_insert_statement_type_predefined_data
+      id: 02_insert_statement_type_predefined_data
       author: pawel
       changes:
         - loadData:
-            file: statement_type/statement_type_predefined_data.csv
+            file: 02/statement_type_predefined_data.csv
             relativeToChangelogFile: true
             tableName: book
             encoding: UTF-8

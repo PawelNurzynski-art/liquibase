@@ -1,4 +1,4 @@
 databaseChangeLog:
   - include:
-      file: statement_type/changelog-01-statement-type.yaml
       relativeToChangelogFile: true
+      file: 01_create_statement_type.yaml

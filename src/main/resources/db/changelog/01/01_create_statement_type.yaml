@@ -1,6 +1,6 @@
 databaseChangeLog:
   - changeSet:
-      id: 01_create_statement_type
+      id: 01_create_table_book
       author: pawel
       changes:
         - createTable:
